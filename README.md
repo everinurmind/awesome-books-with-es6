@@ -2,7 +2,6 @@
 
 - [📖 About the Project](#about-project)
 - [🛠 Built With](#built-with)
-- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -10,7 +9,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
+- [👥 Authors](#author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -45,14 +44,6 @@ Hello! Here you will see Awesome Books with ES6 project
     <li><a href="https://www.microverse.org/"></a>Microverse</li>
   </ul>
 </details>
-
-### Key Features <a name="key-features"></a>
-
-- [production of main pages] **[home page and about page]**
-- [making page responsive] **[@media integration]**
-- [adding dynamically made javaScript section] **[featured speakers section]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
