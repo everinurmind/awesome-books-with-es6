@@ -1,4 +1,4 @@
-export default function switchSections() {
+const switchSections = () => {
   const links = document.querySelectorAll('nav a');
   const sections = document.querySelectorAll('main section');
 
@@ -8,20 +8,14 @@ export default function switchSections() {
       const targetId = link.getAttribute('href').slice(1);
 
       sections.forEach((section) => {
-        if (section.id === targetId) {
-          section.classList.add('active');
-        } else {
-          section.classList.remove('active');
-        }
+        section.classList.toggle('active', section.id === targetId);
       });
 
       links.forEach((link) => {
-        if (link === event.target) {
-          link.classList.add('active');
-        } else {
-          link.classList.remove('active');
-        }
+        link.classList.toggle('active', link === event.target);
       });
     });
   });
-}
+};
+
+export default switchSections;
