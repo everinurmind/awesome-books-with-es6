@@ -83,3 +83,12 @@
     display: block;
   }
   
+  #date-time { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 900;
+  
+  }
